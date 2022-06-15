@@ -248,6 +248,7 @@ p {
 	background-position: top center;
 	position: relative;
 	z-index: 1;
+overflow-x: hidden;
 }
 
 #hero::after {
@@ -260,6 +261,7 @@ p {
 	background-color: black;
 	opacity: .7;
 	z-index: -1;
+overflow-x: hidden;
 }
 
 #hero .hero {
